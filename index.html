@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card" id="card">
+        <img src="heels.png" class="Product-img">
+        <h2 class="product-title">Fashion Heels</h2>
+        <p class="product-price">
+            Price: $500.00
+        </p>
+        <div class="quantity-container">
+            <img src="./minus-button.png" class="quantity-icon" onclick="dec()">
+            <span class="product-price" id="quantity">1</span>
+            <img src="./add.png" class="quantity-icon" onclick="inc()">
+        </div>
+        <button onclick="" class="btn-buy-now">Buy Now</button>
+        <p>Total: $<span id="total-price">500.00</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
